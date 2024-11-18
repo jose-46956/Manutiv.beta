@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuais das Máquinas - Manutiv</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <img src="Manutiv Logo.png">
+    <h1>Manutiv</h1>
+    <ul>
+      <li><a href="Index.Html">Início</a></li>
+      <li><a href="Manuals.Html">Manuais</a></li>
+    </ul>
+  </nav>
+
+  
+  <main>
+    <h2>Manuais das Máquinas</h2>
+    <form id="manualForm">
+      <label for="manualFile">Adicionar Arquivo (PDF, DOC):</label>
+      <input type="file" id="manualFile" accept=".pdf,.doc,.docx">
+      <button type="submit">Adicionar Manual</button>
+    </form>
+    <table id="manualTable">
+      <thead>
+        <tr>
+          <th>Nome do Arquivo</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+
+    <h3>Informações Técnicas</h3>
+    <form id="infoForm">
+      <textarea id="manualText" rows="5" placeholder="Adicione informações técnicas"></textarea>
+      <button type="submit">Adicionar Informação</button>
+    </form>
+    <table id="infoTable">
+      <thead>
+        <tr>
+          <th>Informação Técnica</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Since: 2024</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
